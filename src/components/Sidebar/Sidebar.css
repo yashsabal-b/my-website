@@ -76,7 +76,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .linkR {
-    display: inline-block;
+  .btn-wrap {
+    flex-direction: row;
   }
 }
