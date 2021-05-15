@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   background: #010606;
-  position: relative;
 }
 .services-container .h1 {
   margin-top: -154px;
@@ -13,7 +12,7 @@
 .services-wrap {
   max-width: 1000px;
   margin: 0 auto;
-  margin-left: 244px;
+  margin-left: 248px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
@@ -24,7 +23,7 @@
   background: transparent;
   display: flex;
   margin: 10px;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
@@ -32,6 +31,7 @@
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  border: 1px solid red;
 }
 .services-card:hover {
   transform: scale(1.2);

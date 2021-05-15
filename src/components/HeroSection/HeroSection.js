@@ -63,7 +63,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            E-mail
+            About Me
             {!hover ? (
               <FaArrowRight className='right' />
             ) : (

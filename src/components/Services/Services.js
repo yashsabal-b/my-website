@@ -9,35 +9,19 @@ function Services() {
         <div className='services-wrap'>
           <div className='services-card'>
             <img src={one} alt='' />
-            <h2>lets sex...</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum?
-            </p>
+            <h2>I Make and smooth websites</h2>
           </div>
           <div className='services-card'>
             <img src={one} alt='' />
             <h2>lets sex...</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum?
-            </p>
           </div>
           <div className='services-card'>
             <img src={one} alt='' />
             <h2>lets sex...</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum?
-            </p>
           </div>
           <div className='services-card'>
             <img src={one} alt='' />
             <h2>lets sex...</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum?
-            </p>
           </div>
         </div>
       </div>
