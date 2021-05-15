@@ -1,7 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
-import { Link as LinkR } from "react-router-dom";
 import "./Sidebar.css";
 
 function Sidebar({ isOpen, toggle }) {
