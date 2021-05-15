@@ -77,6 +77,10 @@
 }
 @media screen and (max-width: 768px) {
   .btn-wrap {
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .linkR {
+    justify-content: center;
+    text-align: center;
   }
 }
