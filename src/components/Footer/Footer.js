@@ -1,35 +1,20 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-scroll";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaLinkedinIn,
+  FaLinkedin,
+  FaTwitter,
+  FaGithub,
+} from "react-icons/fa";
 
 function Footer() {
   return (
     <>
       <footer>
         <div className='footer-wrap' id='footer'>
-          <div className='links-container'>
-            <div className='links-wrapper'>
-              <div className='link-items'>
-                <h1>About us</h1>
-                <a href='https://github.com/briancodex/react-website-v1/blob/master/src/components/Footer.css'>
-                  sucks..
-                </a>
-                <a href='https://github.com/briancodex/react-website-v1/blob/master/src/components/Footer.css'>
-                  sucks..
-                </a>
-              </div>
-              <div className='link-items'>
-                <h1>About us</h1>
-                <a href='https://github.com/briancodex/react-website-v1/blob/master/src/components/Footer.css'>
-                  sucks..
-                </a>
-                <a href='https://github.com/briancodex/react-website-v1/blob/master/src/components/Footer.css'>
-                  sucks..
-                </a>
-              </div>
-            </div>
-          </div>
           <div className='social-media'>
             <div className='social-media-wrap'>
               <Link
@@ -50,8 +35,17 @@ function Footer() {
                 <a href='https://www.instagram.com/a281447/'>
                   <FaInstagram className='ig' />
                 </a>
-                <a href='https://www.instagram.com/a281447/'>
+                <a href='https://www.facebook.com/yash.sabal.338'>
                   <FaFacebook className='fb' />
+                </a>
+                <a href='https://www.linkedin.com/in/logistic-programmer-958365207/'>
+                  <FaLinkedin className='li' />
+                </a>
+                <a href='https://twitter.com/yashsabal5'>
+                  <FaTwitter className='tt' />
+                </a>
+                <a href='https://github.com/yashsabal'>
+                  <FaGithub className='gh' />
                 </a>
               </div>
             </div>

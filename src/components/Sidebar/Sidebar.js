@@ -62,6 +62,9 @@ function Sidebar({ isOpen, toggle }) {
         <a className='linkR' href='tel:+917972872410'>
           Contact Me
         </a>
+        <a className='linkR' href='mailto:yashsabal716@gmail.com'>
+          E-mail
+        </a>
       </div>
     </aside>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import one from "../../images/fast.svg";
 
 function CardItem(props) {
   return (
@@ -7,7 +6,11 @@ function CardItem(props) {
       <li className='cards__item'>
         <a className='cards__item__link'>
           <figure className='cards__item__pic-wrap'>
-            <img className='cards__item__img' alt='Travel Image' src={one} />
+            <img
+              className='cards__item__img'
+              alt='Travel Image'
+              src={props.src}
+            />
           </figure>
           <div className='cards__item__info'>
             <h5 className='cards__item__text'>{props.text}</h5>

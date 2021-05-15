@@ -38,7 +38,7 @@ function Navbar({ toggle }) {
             to='home'
             className='nav-logo'
           >
-            Yash
+            Yash Sabal
           </LinkS>
           <div className='mobile-icon' onClick={toggle}>
             <FaBars />
@@ -94,8 +94,11 @@ function Navbar({ toggle }) {
             </li>
           </ul>
           <div className='nav-btn'>
-            <a className='nav-btn-link' href='tel:+917972872410'>
+            <a className='nav-btn-link a' href='tel:+917972872410'>
               Contact Me
+            </a>
+            <a className='nav-btn-link' href='mailto:yashsabal716@gmail.com'>
+              E-mail
             </a>
           </div>
         </div>

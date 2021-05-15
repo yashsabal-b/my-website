@@ -87,10 +87,11 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
-export const LinkS = styled(Link)`
+export const LinkS = styled.a`
   background-color: #3ebaf9;
   padding: 12px 30px;
   border-radius: 50px;
+  text-decoration: none;
   color: #0c0c0c;
   &:hover {
     transition: all 0.3s ease-in-out;

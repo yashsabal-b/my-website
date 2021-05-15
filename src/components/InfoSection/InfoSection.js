@@ -20,9 +20,10 @@ function InfoSection({
   imgStart,
   topLine,
   lightText,
-  heading,
+  headline,
   darkText,
   description,
+  margin,
   hover,
   img,
   id,
@@ -35,19 +36,14 @@ function InfoSection({
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <Heading lightText={lightText}>{heading}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <LinkS
+                    target='_blank'
                     hover={hover}
-                    to='home'
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact='true'
-                    offset={-80}
+                    href='https://yashs-amazon-clone.netlify.app/'
                   >
-                    home
+                    Projects
                   </LinkS>
                 </BtnWrap>
               </TextWrapper>

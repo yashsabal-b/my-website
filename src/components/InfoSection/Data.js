@@ -1,14 +1,14 @@
-import one from "../../images/fast.svg";
+import one from "../../images/about.png";
+import two from "../../images/project.png";
 
 export const homeObjOne = {
   id: "about",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "premium bank",
-  headline: "Lorem ipsum dolor sit amet consectetur.",
+  topLine: "About Me",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam pariatur reprehenderit, minima incidunt consequuntur velit, cum ullam, suscipit consectetur fugit maiores assumenda rem explicabo!",
+    "I am a 20 year's old Aspiring Developer, I began when i Was 17 and till then I have only Putted More and More to my Skills. For Now i Work as a Freelance Web-Developer But I am willing to Work for Big Companies as I am Really Good at Team Work, In future I Hope to become more better in development and Continuously learn New Technologies.",
   imgStart: false,
   img: one,
   dark: true,
@@ -21,12 +21,11 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   hover: true,
-  topLine: "only one project...",
-  headline: "the best amazone clone.",
+  topLine: "my projects",
   description:
-    "the main body of matter in a manuscript, book, newspaper, etc., as distinguished from notes, appendixes, headings, illustrations, etc.the original words of an author or speaker, as opposed to a translation, paraphrase, commentary, or the like",
+    "For Now I have only included One Project, It is One of my Best Projects but I have'nt Integrated Mobile Responsiveness and Functionality yet as I was Working on my clients Projects, I Will definitely Update it in Future.  I Specialize in Adding Modern Functionalities in Websites Like Login, Sign-up, Databases, And Creating Dynamic Websites.",
   imgStart: true,
-  img: "https://lh3.googleusercontent.com/xhr8DLa9AZCptoJDlAmAR1pfaTsOZNZhXOaAUPC1mv70_HKKdRzpxYbL7zBkKUEOLvt6fepjjzn5KFH7F3ObgtlVVNAcA6Z21mDN_PWPo_k_54x77DzBq6mLAW5GVYEpXZBaiGUypl8kARThtACpTS5TDsLm78RuTD5uuoKz6Z0iS1wgQjq-wVtqIFxDTLK1u1Q6ASmoo1IlBjsPiTE6NlUx7ygArdpF2FcRWxngVJUA0io5XdICIFvlyvgwD84YDvQZzmtKB54h9O8JAQfQcF4ZygUHpx3h5N8B__i5TV0RVl9oHaTKmUJh42mChJXQhyhST3HoX6BQSfjPxoafMaJcq13zNPBaPQ9vzTqf089ckNKEQTBxzbbSigDo_VrvgQgnxkadh_3pBCxAusx3oxqK3y1yjxemC2HcrciNoanMZ6e1sINRGFsFsONyy_ks-TOYaz9eTVcULrrfBp_5urvlr8MzewBNFHDoUesfU5OCT-biUvbJRXu7JSxZXuWJbIp432mHpbqZZswfwSW98LDr26gLW4jOBcQhO_gISoQuqZrS9fOf3TtXyj59CqIuCKCAC2_IdSXS-YKQaEZLlAiyj-zqydG-7IdFKafANkaiOp446UB1Gdb0PSa-85RW2n5ngHts6EauoncYLJ2GzQPch6OQ58GhzLq2ipNVCsouDT0sNFwkhLkUopHzH2nJXnxLNFqgRF21Yt8n0y-ylQ8j=w864-h364-no?authuser=0",
+  img: two,
   dark: false,
   primary: false,
   darkText: true,
