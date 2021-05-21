@@ -40,7 +40,9 @@
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  padding: 24px;
+  /* padding-bottom: 64px; */
+  margin-top: 64px;
+  margin-right: 14px;
 }
 .sidebar-links:hover {
   color: #3ebaf9;

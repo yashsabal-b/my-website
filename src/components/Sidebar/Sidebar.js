@@ -15,7 +15,7 @@ function Sidebar({ isOpen, toggle }) {
         <FaTimes className='close-icon' />
       </div>
       <div className='sidebar-wrapper'>
-        <ul className='sidebar-menu'>
+        <ul>
           <li className='sidebar-links'>
             <LinkS
               onClick={toggle}
