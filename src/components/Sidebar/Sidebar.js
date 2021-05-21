@@ -58,12 +58,12 @@ function Sidebar({ isOpen, toggle }) {
         </ul>
       </div>
       <div className='btn-wrap'>
-        {/* <a className='linkR' href='tel:+917972872410'>
+        <a className='linkR' href='tel:+917972872410'>
           Contact Me
         </a>
         <a className='linkR' href='mailto:yashsabal716@gmail.com'>
           E-mail
-        </a> */}
+        </a>
       </div>
     </aside>
   );
