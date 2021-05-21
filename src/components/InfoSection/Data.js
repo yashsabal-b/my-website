@@ -8,7 +8,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: "About Me",
   description:
-    "I am a 20 year old Aspiring Developer, I began when I Was 17 and till then I have only Put More and More to my Skills. For Now I Work as a Freelance Web-Developer But I am willing to Work for Big Companies as I am Really Good at Team Work, In future I Hope to become more better in Development and Continuously Learn New Technologies.",
+    "I am a 20 year old Aspiring Developer, I began when I Was 17 and till then I have only Put More and More           to my Skills. For Now I Work as a Freelance Web-Developer But I am willing to Work for Big Companies as             I am Really Good at Team Work, In future I Hope to become more better in Development and Continuously           Learn New Technologies.",
   imgStart: false,
   img: one,
   dark: true,
