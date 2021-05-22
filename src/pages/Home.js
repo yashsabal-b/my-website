@@ -1,15 +1,10 @@
 import React, { useState } from "react";
+import AboutMe from "../components/AboutMe/AboutMe";
 import Cards from "../components/Cards/Cards";
 import Footer from "../components/Footer/Footer";
 import HeroSection from "../components/HeroSection/HeroSection";
-import {
-  homeObjOne,
-  homeObjThree,
-  homeObjTwo,
-} from "../components/InfoSection/Data";
-import InfoSection from "../components/InfoSection/InfoSection";
 import Navbar from "../components/Navbar/Navbar";
-import Services from "../components/Services/Services";
+import Projects from "../components/Projects/Projects";
 import Sidebar from "../components/Sidebar/Sidebar";
 
 function Home() {
@@ -23,8 +18,8 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      <AboutMe />
+      <Projects />
       <Cards />
       <Footer />
     </>

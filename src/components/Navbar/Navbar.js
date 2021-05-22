@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Link as LinkR, Redirect } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
-import emailjs from "emailjs-com";
 
 function Navbar({ toggle }) {
   const [active, setActive] = useState(false);

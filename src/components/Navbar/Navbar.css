@@ -45,7 +45,6 @@
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -58px;
 }
 @media screen and (max-width: 768px) {
   .mobile-icon {
