@@ -1,23 +1,24 @@
 import React from "react";
+import Title from "react-vanilla-tilt";
 
 function CardItem(props) {
   return (
-    <>
-      <li className='cards__item'>
-        <a className='cards__item__link'>
-          <figure className='cards__item__pic-wrap'>
-            <img
-              className='cards__item__img'
-              alt='Travel Image'
-              src={props.src}
-            />
-          </figure>
-          <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
-          </div>
-        </a>
-      </li>
-    </>
+    <Title
+      className='card'
+      style={{
+        background: "rgba(255, 255, 255, 0.1)",
+        boxShadow: "20px 20px 50px rgba(0,0,0,0.1)",
+      }}
+    >
+      <div className='content'>
+        <div className='card-wrap'>
+          <img src={props.src} className='card-img' />
+        </div>
+        <div className='card-info'>
+          <p>{props.text}</p>
+        </div>
+      </div>
+    </Title>
   );
 }
 
