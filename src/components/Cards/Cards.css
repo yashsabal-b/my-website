@@ -89,13 +89,18 @@ h1 {
 }
 @media only screen and (max-width: 1000px) {
   .cards__container {
-    width: 5%;
+    margin: 0;
   }
   .cards__container::before {
     clip-path: circle(15% at 12% 19%);
   }
   .cards::before {
     clip-path: circle(20% at right 70%);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cards__container {
+    margin: 0;
   }
 }
 
