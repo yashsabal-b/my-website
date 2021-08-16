@@ -1,6 +1,8 @@
 .nav {
   height: 80px;
   margin-top: -80px;
+  overflow-x: hidden;
+
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,4 +1,6 @@
 .hero-container {
+  overflow-x: hidden;
+
   display: flex;
   justify-items: center;
   align-items: center;

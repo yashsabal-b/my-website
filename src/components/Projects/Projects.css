@@ -1,5 +1,7 @@
 .info-container2 {
   color: #010606;
+  overflow-x: hidden;
+
   background: #fff;
 }
 

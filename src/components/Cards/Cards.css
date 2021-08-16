@@ -1,4 +1,6 @@
 .cards {
+  overflow-x: hidden;
+
   padding: 4rem;
   background: #010606;
   position: relative;
